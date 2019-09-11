@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function getFirstSelector(s) {
   return document.querySelector(s)
 }
@@ -28,4 +29,15 @@ function increaseRankBy(n) {
       children[j].innerHTML = parseInt(children[j].innerHTML) + n
     }
   }
+=======
+function getFirstSelector(selector) {
+  const list = document.querySelector('ul')
+  return list
+}
+
+function nestedTarget(x) {
+  const lis = document
+    .getElementById('nested')
+    .querySelectorAll('div.target');
+>>>>>>> b50221384360cbb6bf9b4f230236912e621a770c
 }
